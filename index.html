@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FigmaLand</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Fixed Navigation -->
+    <nav class="fixed-nav" id="fixedNav">
+        <div class="container nav-container">
+            <div class="logo"><a href="#home">FIGMA LAND</a></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#features" class="nav-link">Product</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button class="btn-primary nav-btn">Try For Free</button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <nav class="navbar">
+            <div class="logo"><a href="#home">FIGMA LAND</a></div>
+            <div class="social-icons">
+                <a href="https://twitter.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/32/733/733579.png" alt="Twitter"></a>
+                <a href="https://facebook.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/32/733/733547.png" alt="Facebook"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/32/733/733558.png" alt="LinkedIn"></a>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>The best products<br>start with Figma</h1>
+            <p>Most calendars are designed for teams. Slate is designed for<br>freelancers who want a simple way to plan their schedule.</p>
+            <button class="btn-primary">Try For Free</button>
+        </div>
+        <div class="wave-divider">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,0 C320,100 1120,20 1440,60 L1440,120 L0,120 Z" fill="#ffffff"></path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            <p class="section-subtitle">Most calendars are designed for teams. Slate is designed for freelancers.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1087/1087840.png" alt="OpenType" class="feature-icon">
+                    <h3>OpenType features<br>Variable fonts</h3>
+                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1087/1087907.png" alt="Design" class="feature-icon">
+                    <h3>Design with real data</h3>
+                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1087/1087903.png" alt="Fast" class="feature-icon">
+                    <h3>Fastest way to<br>take action</h3>
+                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="video-card">
+                <video id="mainVideo" poster="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80" preload="metadata">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                </video>
+                <div class="play-button" id="videoPlayBtn">
+                    <svg width="80" height="80" viewBox="0 0 80 80">
+                        <circle cx="40" cy="40" r="40" fill="#5468FF"/>
+                        <path d="M32 26 L32 54 L56 40 Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Fastest Way to Organize Section -->
+<section class="fast-organize">
+    <div class="container">
+        <div class="fast-grid">
+            <div class="fast-text">
+                <h2>Fastest way to<br>organize</h2>
+                <p>Most calendars are designed for teams.<br>Slate is designed for freelancers</p>
+                <button class="btn-primary">Try For Free</button>
+            </div>
+            <div class="fast-image">
+                <img src="https://images.unsplash.com/photo-1519389951296-5c22958e6c8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=927&q=80" alt="Laptop mockup for organizing">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Lightning Fast Prototyping Section -->
+<section class="lightning-proto">
+    <div class="container">
+        <div class="proto-grid">
+            <div class="proto-image">
+                <img src="https://images.unsplash.com/photo-1597735881931-4e8e8f2a96b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=927&q=80" alt="Person holding tablet for prototyping">
+            </div>
+            <div class="proto-text">
+                <h2>At your fingertips<br>Lightning fast<br>prototyping</h2>
+                <p>Subscribe to our Newsletter<br>Available exclusivery on Figmaland</p>
+                <form class="proto-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Partners Section -->
+<section class="features" id="features">
+    <div class="container">
+        <h2 class="section-title">Partners</h2>
+        <p class="section-subtitle">Most calendars are designed for teams.<br>Slate is designed for freelancers</p>
+        <div class="partners-logos">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Uber_logo_2018.svg" alt="Uber">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Dropbox_icon.svg" alt="Dropbox">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Uber_logo_2018.svg" alt="Uber">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+        </div>
+        <button class="btn-primary nav-btn">Try For Free</button>
+    </div>
+</section>
+
+
+
+
+
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Pricing</h2>
+            <p class="section-subtitle">Most calendars are designed for teams. Slate is designed for freelancers.</p>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Free</h3>
+                    <div class="price">$0<span>/month</span></div>
+                    <ul>
+                        <li>Organize across all apps</li>
+                        <li>Unlimited tasks</li>
+                        <li>Basic support</li>
+                    </ul>
+                    <button>Order Now</button>
+                </div>
+                <div class="price-card featured">
+                    <div class="popular">Most Popular</div>
+                    <h3>Standard</h3>
+                    <div class="price">$10<span>/month</span></div>
+                    <ul>
+                        <li>Everything in Free</li>
+                        <li>Priority support</li>
+                        <li>Advanced analytics</li>
+                        <li>Team collaboration</li>
+                    </ul>
+                    <button>Order Now</button>
+                </div>
+                <div class="price-card">
+                    <h3>Business</h3>
+                    <div class="price">$99<span>/month</span></div>
+                    <ul>
+                        <li>Everything in Standard</li>
+                        <li>Dedicated manager</li>
+                        <li>Custom integrations</li>
+                        <li>White-label option</li>
+                    </ul>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial-slide active">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="John">
+                    <p>"Slate helps you see how many more days you need to work to reach your financial goal."</p>
+                    <h4>— John Doe, Designer</h4>
+                </div>
+                <div class="testimonial-slide">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Jane">
+                    <p>"The best tool I've used for managing freelance projects. Simple and powerful."</p>
+                    <h4>— Jane Smith, Developer</h4>
+                </div>
+                <div class="testimonial-slide">
+                    <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Mike">
+                    <p>"Finally a calendar made for freelancers. No more team clutter!"</p>
+                    <h4>— Mike Johnson, Creator</h4>
+                </div>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+            </div>
+        </div>
+        
+        <li><button class="btn-primary nav-btn">Try For Free</button></li>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Most calendars are designed for teams. Slate is designed for freelancers.</p>
+            <div class="contact-grid">
+                <div class="contact-form-card">
+                    <h3>Contact Us</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn-primary">Send</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <img src="https://cdn-icons-png.flaticon.com/32/684/684809.png" alt="Address">
+                        <p>6386 Spring St, New York<br>NY 10012, United States</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="https://cdn-icons-png.flaticon.com/32/684/684831.png" alt="Phone">
+                        <p>+1 (123) 456-7890</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="https://cdn-icons-png.flaticon.com/32/684/684825.png" alt="Email">
+                        <p>info@figmaland.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://twitter.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/32/733/733579.png"></a>
+                        <a href="https://facebook.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/32/733/733547.png"></a>
+                        <a href="https://linkedin.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/32/733/733558.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.183131998!2d-73.992529684593!3d40.7484409793275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b311f7c7%3A0x8d8e5c8f715be284!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1698000000000" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h4>Pages</h4><ul><li>Home</li><li>Product</li><li>Pricing</li><li>About</li><li>Contact</li></ul></div>
+            <div><h4>Tomothy</h4><ul><li>Features</li><li>Integrations</li><li>Pricing</li></ul></div>
+            <div><h4>Sitemap</h4><ul><li>Style Guide</li><li>Licenses</li><li>Changelog</li></ul></div>
+            <div class="footer-right">
+                <p>6386 Spring St, New York<br>NY 10012, United States</p>
+                <div class="social-links">
+                    <a href="https://twitter.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/32/733/733579.png"></a>
+                    <a href="https://facebook.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/32/733/733547.png"></a>
+                    <a href="https://linkedin.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/32/733/733558.png"></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">© 2025 FigmaLand — Built with pixel love</p>
+    </footer>
+
+    <!-- Modal: Try For Free -->
+    <div class="modal" id="modal" aria-hidden="true">
+        <div class="modal-content">
+            <span class="close" id="closeModal">×</span>
+            <h2>Start Your Free Trial</h2>
+            <form id="modalForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit" class="btn-primary">Get Started</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal" aria-hidden="true">
+        <div class="modal-content success">
+            <span class="close" id="closeSuccess">×</span>
+            <h2>Your query sent successfully!</h2>
+            <p>We’ll get back to you soon.</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
